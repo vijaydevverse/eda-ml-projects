@@ -1,5 +1,3 @@
----
-
 ## Overview
 
 * Collection of end-to-end Data Science projects
