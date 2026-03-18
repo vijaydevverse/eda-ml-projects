@@ -1,113 +1,172 @@
-## Overview
+Overview
 
-This repository contains a collection of end-to-end Data Science projects completed as part of academic learning and practical exploration. Each project includes data preprocessing, exploratory data analysis (EDA), feature engineering, and machine learning model building.
+This repository contains a collection of end-to-end Data Science projects completed as part of academic learning and hands-on practice. Each project includes data preprocessing, exploratory data analysis (EDA), feature engineering, and machine learning model implementation.
 
-These projects demonstrate practical knowledge of data handling, visualization, and predictive modeling using Python.
+The work covers real-world and synthetic datasets across multiple domains such as finance, healthcare, e-commerce, and user behavior analytics.
 
----
+Projects Included
+1. Salary Prediction
 
-## Projects Included
+📁 SalaryPredictionEdaV.ipynb
 
-### 1. Salary Prediction
+Regression model to predict salaries
 
-* Built regression models to estimate salaries based on job features
-* Performed data cleaning, encoding, and feature scaling
-* Applied Linear Regression and evaluated using R² score
+Data preprocessing, encoding, and scaling
 
-### 2. Restaurant Ranking
+Evaluated using R² score
 
-* Predicted restaurant ratings based on features such as cuisines, price range, and votes
-* Applied feature engineering and scaling
-* Used regression models for prediction
+2. Restaurant Ranking
 
-### 3. Digital Payment Fraud Detection
+📁 RestaurantRankingEdaV.ipynb
 
-* Classified transactions as fraud or non-fraud
-* Encoded categorical variables and normalized features
-* Used Logistic Regression and evaluated using accuracy score
+Predicted restaurant ratings
 
-### 4. Heart Attack Prediction
+Feature engineering and regression modeling
 
-* Built classification model to predict heart disease risk
-* Performed EDA and correlation analysis
-* Evaluated using classification metrics
+3. Digital Payment Fraud Detection
 
-### 5. Customer Travel Analysis
+📁 DigitalPaymentFraudDetectionEdaV.ipynb
 
-* Analyzed travel booking behavior
-* Applied encoding and feature scaling
-* Built predictive models on booking patterns
+Classified transactions as fraud or non-fraud
 
-### 6. Sleep Data Analysis
+Applied Logistic Regression and evaluation metrics
 
-* Explored sleep patterns and biological metrics
-* Performed statistical analysis and visualization
+4. Heart Attack Prediction
 
-### 7. Bangalore House Price Prediction
+📁 HeartAttackEdaV.ipynb
 
-* Predicted housing prices using regression techniques
-* Cleaned and transformed real estate dataset
+Classification model for heart disease prediction
 
-### 8. Diamond Price Prediction
+EDA and correlation analysis
 
-* Modeled diamond pricing using regression
-* Feature selection based on domain attributes
+5. Customer Travel Analysis
 
-### 9. Loan Prediction
+📁 CustomerTravelEdaV.ipynb
 
-* Classified loan approval status
-* Applied preprocessing, encoding, and classification models
+Analyzed customer booking patterns
 
----
+Built predictive insights from travel data
 
-## Tools and Technologies
+6. Sleep Data Analysis
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Google Colab 
+📁 SleepDataEdaV.ipynb
 
----
+Explored sleep behavior and health metrics
 
-## Techniques Used
+Visualization and statistical analysis
 
-* Data Cleaning
-* Handling Missing Values
-* Label Encoding
-* Feature Scaling (MinMaxScaler)
-* Exploratory Data Analysis (EDA)
-* Correlation Analysis
-* Regression Models
-* Classification Models
-* Model Evaluation (Accuracy, R² Score, RMSE)
+7. Bangalore House Price Prediction
 
----
+📁 BangaluruEdaV.ipynb
 
-## How to Use
+Regression model for housing prices
 
-1. Clone the repository
-   git clone git clone https://github.com/vijaydevverse/data-science-eda-ml-projects.git
+Data cleaning and transformation
 
-2. Open the notebooks in Google Colab or Jupyter Notebook
+8. Loan Prediction
 
-3. Install required libraries if needed
-   pip install pandas numpy matplotlib seaborn scikit-learn
+📁 LoanEdaV.ipynb
 
-4. Run the notebooks step by step
+Classified loan approval status
 
----
+Applied preprocessing and classification models
 
-## Author
+9. Online Shoppers Purchase Prediction
+
+📁 OnlineShoppersPurchaseEdaV.ipynb
+
+Predicted customer purchase behavior
+
+Used classification techniques on session data
+
+10. Commodity Price Analysis
+
+📁 PriceCommodityPriceEdaV.ipynb
+
+Analyzed and modeled commodity price trends
+
+Applied regression and time-based insights
+
+11. Spotify User Behavior Analysis
+
+📁 SpotifyUserBehaviorEdaV.ipynb
+
+Predicted user activity (active vs inactive)
+
+Created target variable from inactivity data
+
+Logistic Regression with baseline evaluation
+
+12. Synthetic Financial Data Analysis
+
+📁 SyntheticFinanceEdaV.ipynb
+
+Worked on synthetic financial dataset
+
+EDA and machine learning insights
+
+13. General Exploratory Data Analysis
+
+📁 EdaV.ipynb
+
+Applied core EDA techniques
+
+Data cleaning, visualization, and insights generation
+
+Tools and Technologies
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Scikit-learn
+
+Google Colab
+
+Techniques Used
+
+Data Cleaning
+
+Handling Missing Values
+
+Label Encoding
+
+Feature Scaling (MinMaxScaler)
+
+Exploratory Data Analysis (EDA)
+
+Correlation Analysis
+
+Regression Models
+
+Classification Models
+
+Model Evaluation (Accuracy, R² Score, RMSE)
+
+How to Use
+
+Clone the repository
+
+git clone https://github.com/vijaydevverse/data-science-eda-ml-projects.git
+
+Open notebooks in Google Colab or Jupyter Notebook
+
+Install dependencies if needed
+
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+Run the notebooks step by step
+
+Author
 
 Vijay Krishnan P.M.
 
----
+Notes
 
-## Notes
-
-This repository is created for learning and demonstration purposes. The datasets used are publicly available datasets for practice and educational use.
-
----
+This repository is created for learning and demonstration purposes. The datasets used are publicly available or synthetic datasets for educational use.
